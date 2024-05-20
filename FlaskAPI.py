@@ -21,7 +21,7 @@ def chamaFuncionario(id):
     except:
         return jsonify({'message': 'Erro ao consultar funcionario.', 'erro': 404}), 404
     
-# Rota para adicionar um novo livro (POST)
+# Rota para adicionar um novo funcionário (POST)
 @app.route('/funcionarios', methods=['POST'])
 def addFuncionario():
     try:
@@ -36,6 +36,29 @@ def addFuncionario():
     except:
         return jsonify({'message': 'Erro ao adicionar funcionario.', 'erro': 404}), 404
     
+# Rota para atualizar os detalhes de um funcionário (PUT)
+@app.route('/funcionario/<int:id>', methods=['PUT'])
+def atualizarFuncionario(id):
+    try:
+        funcionarioID = Script_v0_0.dados['funcionarios'][f'{id}']
+        funcionarioID['nome'] = request.json['nome']
+        funcionarioID['idade'] = request.json['idade']
+
+        return jsonify(funcionarioID)
+    except:
+        return jsonify({'message': 'Erro ao consultar funcionario.', 'erro': 404}), 404
+
+# Rota para excluir um funcionario (DELETE)
+@app.route('/funcionario/<int:id>', methods=['DELETE'])
+def deletaFuncionario(id):
+    try:
+        funcionarioID = Script_v0_0.dados['funcionarios'][f'{id}']
+        Script_v0_0.dados['funcionarios'].remove(funcionarioID)
+
+        return jsonify({'message': 'funcionario excluído'})
+    except:
+        return jsonify({'message': 'Erro ao consultar funcionario.', 'erro': 404}), 404
+
 if __name__ == '__main__':
     #debug=True permite que erros do Python apareçam na página da web.
     app.run(debug=True)
