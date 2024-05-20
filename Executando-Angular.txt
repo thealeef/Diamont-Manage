@@ -1,0 +1,3 @@
+cd Projeto-Angular
+cd Diamont-Manage
+ng serve
