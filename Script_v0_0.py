@@ -2,6 +2,8 @@ import json
 import datetime
 from flask import Flask
 
+# Este arquivo é o backend
+
 #Lendo arquivo JSON
 with open(r'DiamontManage\Base.json') as arquivo:
     dados = json.load(arquivo)
