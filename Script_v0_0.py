@@ -16,5 +16,3 @@ except:
     print("Erro no formato da DATA!")
     
 #Gravando dados no JSON
-
-print(len(dados['funcionarios']))
