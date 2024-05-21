@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Pessoas } from '../funcionarios.model';
 
 @Component({
   selector: 'app-funcionarios',
@@ -8,5 +9,7 @@ import { Component } from '@angular/core';
   styleUrl: './funcionarios.component.scss'
 })
 export class FuncionariosComponent {
+
+  funcionario: Pessoas = {nome: 'Alef', idade: 20}
 
 }

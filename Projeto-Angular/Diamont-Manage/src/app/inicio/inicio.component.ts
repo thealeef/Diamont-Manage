@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { ConteudoComponent } from '../conteudo/conteudo.component';
-import { Router } from '@angular/router';
+import { FuncionariosComponent } from '../funcionarios/funcionarios.component';
 
 @Component({
   selector: 'app-inicio',
   standalone: true,
-  imports: [ConteudoComponent],
+  imports: [ConteudoComponent, FuncionariosComponent],
   templateUrl: './inicio.component.html',
   styleUrl: './inicio.component.scss'
 })

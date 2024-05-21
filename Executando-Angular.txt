@@ -8,3 +8,8 @@ ng serve
 cd Projeto-Angular
 cd Diamont-Manage
 ng generate component Nome_do_Componente
+
+##### DEPLOY NO VERCEL #####
+vercel login
+
+vercel --prod
