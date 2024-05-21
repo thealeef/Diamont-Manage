@@ -1,26 +1,26 @@
-// #6dccf2 Fundo Menu
 // #B6D6F2
 // #57AAF2
+
+.corpo, .rodape{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
 #logo{
     width: 80px;
     height: 60px;
     margin-left: 2.5%;
     margin-top: 0%;
 }
-#img-escritorio{
-    width: 50%;
-    height: 50%;
-    margin-left: 25%;
-}
+
 .cabecalho{
     margin-top: 0.5%;
-    background-color: #B6D6F2;
+    background-image: linear-gradient(to right, #d2e2f0, #57AAF2);
     height: 7%;
     display: flex;
     align-items: center;
     height: 5%;
     width: 100%;
-    
 }
 
 .menu{
@@ -36,8 +36,7 @@
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    transition: transform 0.5s;
-    margin-right: 8%;
+    margin-right: 5%;
 }
 
 .menu li{
@@ -47,10 +46,9 @@
 
 .menu ul li:hover{
     background-color: #57AAF2;
-    transform: translateX(-5px) scale(2, 2);
+    box-shadow: 2px -2px #37748c;
+    transform: translate(1px, 5px) scale(2, 2);
     border-radius: 5px;
     padding: 2px;
+    transition: all 0.2s;
 }
-
-
-
