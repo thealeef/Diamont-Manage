@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ConteudoComponent } from '../conteudo/conteudo.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-inicio',
@@ -8,6 +9,6 @@ import { ConteudoComponent } from '../conteudo/conteudo.component';
   templateUrl: './inicio.component.html',
   styleUrl: './inicio.component.scss'
 })
-export class InicioComponent {
 
-}
+export class InicioComponent {}
+
