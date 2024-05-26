@@ -17,7 +17,11 @@
     text-align: left;
 }
 
+<<<<<<< HEAD
 h1 {
+=======
+h1{
+>>>>>>> 8c35a20c6143cc851d901742171bb860c6c5985f
     color: white;
     margin-bottom: 0;
     background-color: #57AAF2;
@@ -25,7 +29,15 @@ h1 {
     padding: 20px;
     border-radius: 5px;
     transition: width 1s;
+<<<<<<< HEAD
     font-family: LemonMilk;
+=======
+}
+
+h1:hover{
+    width: 25%;
+    transition: width 1s;
+>>>>>>> 8c35a20c6143cc851d901742171bb860c6c5985f
 }
 
 h1:hover {
@@ -44,7 +56,10 @@ h1:hover {
     left: 43%;
     text-align: center;
     transition: border-radius 0.5s, transform 0.5s, box-shadow 0.5s;
+<<<<<<< HEAD
     font-family: LemonMilk;
+=======
+>>>>>>> 8c35a20c6143cc851d901742171bb860c6c5985f
 }
 
 #start-text:hover {
@@ -70,18 +85,30 @@ p {
 }
 
 @media screen and (min-width: 200px) and (max-width: 600px) {
+<<<<<<< HEAD
     h1 {
+=======
+	h1{
+>>>>>>> 8c35a20c6143cc851d901742171bb860c6c5985f
         font-size: 20px;
         width: 60%;
     }
 
+<<<<<<< HEAD
     #start-text {
+=======
+    #start-text{
+>>>>>>> 8c35a20c6143cc851d901742171bb860c6c5985f
         width: 27%;
         top: 200%;
         left: 35%;
     }
 
+<<<<<<< HEAD
     .corpo {
+=======
+    .corpo{
+>>>>>>> 8c35a20c6143cc851d901742171bb860c6c5985f
         top: 15%;
     }
 }

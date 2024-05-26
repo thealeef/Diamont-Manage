@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 #logo {
+=======
+#logo{
+>>>>>>> 8c35a20c6143cc851d901742171bb860c6c5985f
     width: 80px;
     height: 60px;
     margin-left: 2.5%;
     margin-top: 25px;
 }
 
+<<<<<<< HEAD
 .cabecalho {
+=======
+.cabecalho{
+>>>>>>> 8c35a20c6143cc851d901742171bb860c6c5985f
     margin-top: 0.5%;
     background-color: rgb(255, 255, 255, 0.65);
     display: flex;
@@ -17,7 +25,11 @@
     top: -10px;
 }
 
+<<<<<<< HEAD
 .menu {
+=======
+.menu{
+>>>>>>> 8c35a20c6143cc851d901742171bb860c6c5985f
     font-weight: bold;
     font-size: small;
     color: white;
@@ -28,12 +40,17 @@
     justify-content: flex-end;
 }
 
+<<<<<<< HEAD
 .menu ul {
+=======
+.menu ul{
+>>>>>>> 8c35a20c6143cc851d901742171bb860c6c5985f
     list-style: none;
     display: flex;
     justify-content: flex-end;
     margin-right: 5%;
     transition: all 0.5s;
+<<<<<<< HEAD
 
 }
 
@@ -44,6 +61,17 @@
 }
 
 .menu ul li:hover {
+=======
+    
+}
+
+.menu li{
+    margin-right: 10%;
+    transition: border-radius 0.6s, transform 0.6s, box-shadow 0.6s;
+}
+
+.menu ul li:hover{
+>>>>>>> 8c35a20c6143cc851d901742171bb860c6c5985f
     color: white;
     background-color: #57AAF2;
     box-shadow: 2px -2px #37748c;
@@ -54,7 +82,11 @@
 }
 
 @media screen and (min-width: 200px) and (max-width: 600px) {
+<<<<<<< HEAD
     .cabecalho {
+=======
+	.cabecalho{
+>>>>>>> 8c35a20c6143cc851d901742171bb860c6c5985f
         position: absolute;
         z-index: 2;
         top: -2px;
