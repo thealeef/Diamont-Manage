@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
-import { ConteudoComponent } from '../conteudo/conteudo.component';
-import { FuncionariosComponent } from '../funcionarios/funcionarios.component';
-import { CabecalhoComponent } from '../cabecalho/cabecalho.component';
+import { CabecalhoComponent } from './cabecalho/cabecalho.component';
+import { CorpoComponent } from './corpo/corpo.component';
+import { RodapeComponent } from './rodape/rodape.component';
 
 @Component({
   selector: 'app-inicio',
   standalone: true,
-  imports: [ConteudoComponent, FuncionariosComponent, CabecalhoComponent],
+  imports: [CabecalhoComponent, CorpoComponent, RodapeComponent],
   templateUrl: './inicio.component.html',
   styleUrl: './inicio.component.scss'
 })
 
-export class InicioComponent {}
+export class InicioComponent { }
 

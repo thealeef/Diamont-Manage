@@ -1,0 +1,61 @@
+.corpo-rodape {
+    margin-top: 1%;
+    height: 20%;
+}
+
+.redes-rodape {
+    display: flex;
+    margin: 2%;
+    border: 1px solid #002e6231;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1em !important;
+    padding: 2%;
+    width: 92%;
+    height: 10%;
+}
+
+.itens-rodape {
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+    border-right: 1px solid #002e6231;
+    display: flex;
+    align-items: center;
+    width: 15%;
+    justify-content: center;
+    transition: all 1s;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    transition: all 1s;
+    opacity: 1;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10%;
+    opacity: 0;
+    transition: all 1s;
+}
+
+/* APLICANDO HOVER */
+
+.itens-rodape:hover p {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.itens-rodape:hover img {
+    opacity: 1;
+    transition: all 1s;
+}
+
+.itens-rodape:hover {
+    width: 5%;
+    transition: all 1s;
+}

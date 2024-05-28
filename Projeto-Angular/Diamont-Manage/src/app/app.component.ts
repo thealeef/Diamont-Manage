@@ -9,16 +9,5 @@ import { InicioComponent } from './inicio/inicio.component';
   styleUrl: './app.component.scss'
 })
 
-export class AppComponent { 
+export class AppComponent {
 }
-
-//setTimeout(() => {
-//  console.log('teste')
-//  exbirBtnCarregamento = true
-//  console.log(exbirBtnCarregamento)
-//}, 10000)
-
-
-
-
-

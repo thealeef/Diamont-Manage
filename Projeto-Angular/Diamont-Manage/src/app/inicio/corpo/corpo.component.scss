@@ -1,0 +1,49 @@
+.corpo {
+    margin-top: 1%;
+}
+
+.titulo {
+    border-bottom: 3px solid white;
+    width: 80%;
+}
+
+.texto {
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid #002e6231;
+    border-radius: 5px;
+}
+
+.texto-paragrafo {
+    border-bottom: 3px solid white;
+    width: 75%;
+    transition: width 2s;
+}
+
+h1 {
+    color: white;
+    font-family: Lemon;
+    font-size: 3.5em;
+    margin: 0;
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1em;
+    margin: 0;
+}
+
+/*  APLICANDO HOVERS*/
+
+.texto:hover .titulo {
+    border-bottom: 3px solid 002D62;
+    width: 69.5%;
+    transition: width 2s;
+}
+
+.texto:hover .texto-paragrafo {
+    border-bottom: 3px solid 002D62;
+    width: 32.3%;
+    transition: width 2s;
+}
